@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter username tomsmith to email field [[ChromeDriver: chrome on WINDOWS (aca336acbd189180de5c75234c2080c3)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter password SuperSecretPassword! to password field SuperSecretPassword!]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on Log In Button]]>
+    </line>
+    <line>
+      <![CDATA[Error message is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Enter username tomsmith to email field [[ChromeDriver: chrome on WINDOWS (c13f2bc88e9f6a49f39d97e203abc44d)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter password SuperSecretPassword to password field SuperSecretPassword]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on Log In Button]]>
+    </line>
+    <line>
+      <![CDATA[User gets error message]]>
+    </line>
+    <line>
+      <![CDATA[Enter username tomsmith1 to email field [[ChromeDriver: chrome on WINDOWS (317829efb4ef0c1627a3d0d28b4a6066)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter password SuperSecretPassword! to password field SuperSecretPassword!]]>
+    </line>
+    <line>
+      <![CDATA[User clicks on Log In Button]]>
+    </line>
+    <line>
+      <![CDATA[User gets error message]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-11T23:47:24 GMT" name="testsuite" finished-at="2022-12-11T23:47:36 GMT" duration-ms="11288">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.UserShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" name="UserShouldLoginSuccessfullyWithValidCredentials" class="com.herokuapp.internet.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" name="verifyThePasswordErrorMessage" class="com.herokuapp.internet.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.internet.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.internet.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginPageTest.UserShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" name="UserShouldLoginSuccessfullyWithValidCredentials" class="com.herokuapp.internet.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-12-11T23:47:24 GMT" name="LoginPage Test" finished-at="2022-12-11T23:47:36 GMT" duration-ms="11288">
+      <class name="com.herokuapp.internet.testsuite.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" started-at="2022-12-11T23:47:25 GMT" name="setUp" finished-at="2022-12-11T23:47:28 GMT" duration-ms="3660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" started-at="2022-12-11T23:47:28 GMT" name="inIt" finished-at="2022-12-11T23:47:29 GMT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="UserShouldLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" started-at="2022-12-11T23:47:29 GMT" name="UserShouldLoginSuccessfullyWithValidCredentials" finished-at="2022-12-11T23:47:29 GMT" duration-ms="649" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter username tomsmith to email field [[ChromeDriver: chrome on WINDOWS (aca336acbd189180de5c75234c2080c3)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter password SuperSecretPassword! to password field SuperSecretPassword!]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on Log In Button]]>
+            </line>
+            <line>
+              <![CDATA[Error message is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UserShouldLoginSuccessfullyWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" started-at="2022-12-11T23:47:29 GMT" name="tearDown" finished-at="2022-12-11T23:47:29 GMT" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" started-at="2022-12-11T23:47:29 GMT" name="setUp" finished-at="2022-12-11T23:47:32 GMT" duration-ms="2362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" started-at="2022-12-11T23:47:32 GMT" name="inIt" finished-at="2022-12-11T23:47:32 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" started-at="2022-12-11T23:47:32 GMT" name="verifyThePasswordErrorMessage" finished-at="2022-12-11T23:47:32 GMT" duration-ms="608" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter username tomsmith to email field [[ChromeDriver: chrome on WINDOWS (c13f2bc88e9f6a49f39d97e203abc44d)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter password SuperSecretPassword to password field SuperSecretPassword]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on Log In Button]]>
+            </line>
+            <line>
+              <![CDATA[User gets error message]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThePasswordErrorMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" started-at="2022-12-11T23:47:32 GMT" name="tearDown" finished-at="2022-12-11T23:47:33 GMT" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" started-at="2022-12-11T23:47:33 GMT" name="setUp" finished-at="2022-12-11T23:47:35 GMT" duration-ms="2252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="inIt()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" started-at="2022-12-11T23:47:35 GMT" name="inIt" finished-at="2022-12-11T23:47:35 GMT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method signature="verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" started-at="2022-12-11T23:47:35 GMT" name="verifyTheUsernameErrorMessage" finished-at="2022-12-11T23:47:36 GMT" duration-ms="615" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter username tomsmith1 to email field [[ChromeDriver: chrome on WINDOWS (317829efb4ef0c1627a3d0d28b4a6066)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter password SuperSecretPassword! to password field SuperSecretPassword!]]>
+            </line>
+            <line>
+              <![CDATA[User clicks on Log In Button]]>
+            </line>
+            <line>
+              <![CDATA[User gets error message]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheUsernameErrorMessage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@77847718]" started-at="2022-12-11T23:47:36 GMT" name="tearDown" finished-at="2022-12-11T23:47:36 GMT" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.internet.testsuite.LoginPageTest -->
+    </test> <!-- LoginPage Test -->
+  </suite> <!-- testsuite -->
+</testng-results>

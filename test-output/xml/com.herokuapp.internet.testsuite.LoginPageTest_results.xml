@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LoginPage Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.872">
+  <properties />
+  
+  
+            <testcase name="UserShouldLoginSuccessfullyWithValidCredentials" time="0.649" classname="com.herokuapp.internet.testsuite.LoginPageTest" />
+                <testcase name="verifyThePasswordErrorMessage" time="0.608" classname="com.herokuapp.internet.testsuite.LoginPageTest" />
+                <testcase name="verifyTheUsernameErrorMessage" time="0.615" classname="com.herokuapp.internet.testsuite.LoginPageTest" />
+      
+</testsuite>
